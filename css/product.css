@@ -17,8 +17,8 @@ hr{
     text-align: center;
     margin: 0 auto;
 }
-/* start header */
 
+/* header */
 .expand {
     background-color: white;
 }
@@ -41,48 +41,53 @@ header nav span{
     FONT-FAMILY: cursive;
     color: rgb(32, 172, 228);
 }
-/* end header */
-/* products */
+/* header */
+
+/* product */
 main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     margin: 25px 30px;
     flex-wrap: wrap;
-}
-main .pc-bundle{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-}
-main .pc-bundle img{
+    margin: 20px auto;
     width: 450px;
-    border-bottom: 1px solid rgb(32, 172, 228);
+    background-color: rgb(37, 228, 235);
 }
-main .pc-bundle h2{
+main h2{
     padding: 10px;
-    color:tomato;
+    color:rgb(179, 40, 15);
     text-transform: capitalize;
 }
-main .pc-bundle a{
+main img{
+    width: 450px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(32, 172, 228);
+}
+main p{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}
+main span{
+    margin-top: 15px;
+    color: rgb(173, 28, 28);
+    font-size: large;
+    font-weight: bold;
+}
+main a{
     border: 1px solid rgb(32, 172, 228);
     padding: 5px 10px;
     font-size: 25px;
     margin-bottom: 10px;
     border-radius: 7px;
+    margin-top: 15px;
     color: rgb(10, 74, 77);
-    background-color: rgb(235, 247, 244);
+    background-color: rgb(183, 194, 191);
 }
-main .pc-bundle a:hover{
+main a:hover{
     color: white;
     background-color: rgb(17, 105, 32);
 }
-
-/* products */
+/* product */
